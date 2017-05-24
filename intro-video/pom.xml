@@ -10,7 +10,8 @@
 	<name>intro-video</name>
 
 	<properties>
-		<vaadin.version>7.6.5</vaadin.version>
+		<vaadin.version>8.0.6</vaadin.version>
+		<vaadin.charts.version>4.0.0</vaadin.charts.version>
 		<vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
 		<jetty.plugin.version>9.2.3.v20140905</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,9 +50,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.vaadin.addon</groupId>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-charts</artifactId>
-			<version>3.0.0</version>
+			<version>${vaadin.charts.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
